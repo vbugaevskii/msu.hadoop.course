@@ -28,10 +28,6 @@ public class GeneratorRecordReaderInverse extends GeneratorRecordReader {
             }
             matrixCoordsZeros.add(key);
         }
-
-        for (MatrixCoords s : matrixCoordsZeros) {
-            System.out.println(s.toString());
-        }
     }
 
     @Override
