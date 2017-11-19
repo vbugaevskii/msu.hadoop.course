@@ -1,0 +1,26 @@
+<configuration>
+    <property>
+        <name>mgen.row-count</name>
+        <value>20000</value>
+    </property>
+    <property>
+        <name>mgen.column-count</name>
+        <value>20000</value>
+    </property>
+    <property>
+        <name>mgen.min</name>
+        <value>2</value>
+    </property>
+    <property>
+        <name>mgen.max</name>
+        <value>8</value>
+    </property>
+    <property>
+        <name>mgen.sparsity</name>
+        <value>0</value>
+    </property>
+    <property>
+        <name>mgen.num-mappers</name>
+        <value>40</value>
+    </property>
+</configuration>
