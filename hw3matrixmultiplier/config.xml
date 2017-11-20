@@ -1,0 +1,14 @@
+<configuration>
+    <property>
+        <name>mm.tags</name>
+        <value>ABC</value>
+    </property>
+    <property>
+        <name>mm.groups</name>
+        <value>2</value>
+    </property>
+    <property>
+        <name>mm.num-reducers</name>
+        <value>2</value>
+    </property>
+</configuration>
