@@ -12,7 +12,6 @@ mkdir -p "$WORK_DIR/prog"
 
 cp -r src pom.xml config.xml "$WORK_DIR/prog"
 cp readme.txt "$WORK_DIR"
-if [ -f "$ARCHIVE" ]; then
-    rm "$ARCHIVE"
-fi
+[[ -f "$ARCHIVE" ]] && rm "$ARCHIVE"
+
 cd "$WORK_DIR" ; zip -r "../$ARCHIVE" * ; cd ..
